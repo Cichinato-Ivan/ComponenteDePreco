@@ -20,7 +20,7 @@ body{
     width: auto;
     height: 60px;
     padding: 1em;
-
+    border: 1px solid blue;
 }
 
 .flex-container{
@@ -30,16 +30,17 @@ body{
 
 .pages{
     margin-right: 10%;
-    text-align: center;
+    padding: 50%;
+}
+
+.pricing{
+    justify-content: center;
 }
 
 .pricing strong{
     font-size: 40px;
 }
-
-/* .pages{
-    margin-right: 5%;
-} */
+/*Fim Estilização da Sessão Views */
 
 .attribution { 
     font-size: 11px; 
