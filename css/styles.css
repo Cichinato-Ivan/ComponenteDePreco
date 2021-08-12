@@ -3,7 +3,6 @@ body{
     font-family: 'Manrope', sans-serif;
 }
 
-/*Início Estilização do Cabeçalho */
 .dark-desaturated-blue {
     color: hsl(227, 35%, 25%);
 }
@@ -11,11 +10,17 @@ body{
 .grayish-blue{
     color: hsl(225, 20%, 60%);
 }
-/*Fim Estilização do Cabeçalho */
 
 /*Início Estilização da Sessão Views */
 #views{
     border: 1px solid red;
+}
+
+#views div{
+    width: auto;
+    height: 60px;
+    padding: 1em;
+
 }
 
 .flex-container{
@@ -25,6 +30,11 @@ body{
 
 .pages{
     margin-right: 10%;
+    text-align: center;
+}
+
+.pricing strong{
+    font-size: 40px;
 }
 
 /* .pages{
