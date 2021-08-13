@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+/*Início Estilização do Cabeçalho */
+.dark-desaturated-blue {
+    color: hsl(227, 35%, 25%);
+}
+
+.grayish-blue{
+    color: hsl(225, 20%, 60%);
+}
+/*Fim Estilização do Cabeçalho */
+
+/*Início Estilização da Sessão Views */
+#views{
+    border: 1px solid red;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.pages{
+    margin-right: 10%;
+}
+
+/* .pages{
+    margin-right: 5%;
+} */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
