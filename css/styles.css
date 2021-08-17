@@ -5,8 +5,11 @@ body{
 
 #interactive-area{
     width: 900px;
+    height: 550px;
+    margin: auto;
     display: block;
     justify-content: center;
+    align-items: center;
     background-color: rgb(223, 217, 217);
 }
 
@@ -19,15 +22,11 @@ body{
 }
 
 /*Início Estilização da Sessão Views */
-#views{
-    border: 1px solid red;
-}
 
 #views div{
     width: auto;
     height: 60px;
     padding: 1em;
-    border: 1px solid blue;
 }
 
 .flex-container{
@@ -48,18 +47,13 @@ body{
 
 /*Início Estilização da Sessão Slider */
 #list{
-    list-style: none;
+    list-style:url(../images/check-solid.png);
     text-align: justify;
-}
-
-.color{
-    color: rgb(94, 226, 94);
 }
 
 .col{
   margin: 20px;
   padding: 10px;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;

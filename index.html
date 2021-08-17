@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="./css/styles.css">
 
     <!-- Fonts -->
-
-    <link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
@@ -21,8 +19,6 @@
   <body>
     <div id="interactive-area">
       <header>
-        <!-- Simple, traffic-based pricing
-        Sign-up for our 30-day trial. No credit card required. --> 
         <h1 class="dark-desaturated-blue">
           Preços simples com base no tráfego
         </h1>
@@ -43,7 +39,7 @@
         </div>
         <div >
           <p class="pricing">
-            <strong class="dark-desaturated-blue">R$</strong> / mês
+            <strong class="dark-desaturated-blue">R$<span id="value"></span></strong> / mês
           </p>
         </div>
       </section>
@@ -52,40 +48,31 @@
       <section id="slider"><!--Início sessão Slider-->
         
         <div>
-          <input type="range" name="control" id="control">
+          <input type="range" min="1" max="1000" name="control" id="control">
         </div>
         <div class="flex-container">
           <div class="col">
-            <!-- Monthly Billing -->
-            Faturamento Mensal
+            <p>Faturamento Mensal</p>
           </div>
+          
           <div class="col">
-            <input type="checkbox">
-          </div>
-          <div class="col">
-            <!--Yearly Billing 25% discount-->
-            Desconto de 25% no faturamento anual
+            <p><input type="checkbox" class="checked">  Desconto de 25% no faturamento anual</p>
           </div>
         </div>
       </section><!--Fim sessão Slider-->
 
-
       <section>
 
           <div class="flex-container">
-            <!-- Unlimited websites
-            100% data ownership
-            Email reports -->
             <div class="col">
               <ul id="list">
-                <li><i class="fas fa-check color"></i>  Sites ilimitados</li>
-                <li><i class="fas fa-check color"></i>  100% de propriedade de dados</li>
-                <li><i class="fas fa-check color"></i>  Relatórios de e-mail</li>
+                <li>  Sites ilimitados</li>
+                <li>  100% de propriedade de dados</li>
+                <li>  Relatórios de e-mail</li>
               </ul>
             </div>
 
             <div class="col">
-              <!-- Start my trial -->
               <input class="btn" type="submit" value="Comece meu teste">
             </div>
           </div>
@@ -99,5 +86,8 @@
         </div>
       </footer>
     </div>
+
+    <script src="./index.js"></script>
+
   </body>
 </html>
